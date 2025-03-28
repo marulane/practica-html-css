@@ -1,0 +1,58 @@
+html{
+    /* Variables en CSS */
+    --bg-color: #FFB8E0; 
+    --item-color: #EC7FA9;
+    --hg-color: #ffedfa96;
+    --contrast-color: #181717;
+
+    text-align: center;
+    background-color: var(--bg-color);
+    color: var(--contrast-color);
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+h1{
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    /* margin-bottom: 10px; */
+    margin: auto;
+   
+  }
+
+.dotted{
+    background-color: var(--item-color);
+    padding: 10px;
+    margin: 10px;
+    border: 3px dashed var(--hg-color);
+}
+
+.cuadricula{
+    display: inline-block;
+}
+
+.forms{
+    display: block;
+    text-align: center;
+}
+
+div{
+    
+}
+
+div.formulario{
+    width: 40%;
+    margin: 0 auto;
+}
+
+.albumbg{
+    background-color: var(--hg-color);
+    padding-left: 20px;
+    padding-right: 20px;
+   
+}

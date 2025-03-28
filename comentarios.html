@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentarios</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <a href="./index.html">Regresar a Inicio</a>
+    <a href="./discografia.html">Ver Discografía</a>
+    <h1>Comentarios y Feedback </h1>
+    <h3>Gracias por visitar nuestra página, a continuación puedes enviar cualquier comentario y/o sugerencia.
+        <span>¡Tu aportación nos ayuda a seguir mejorando!</span>
+    </h3>
+    <div class="formulario">
+        <form action="./js/script.js" method="post" class="dotted">
+            <label class="forms" clafor="Nombre">Ingresa tu nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre">
+            <label class="forms" for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email" placeholder="ejemplo@correo.com">
+            <label class="forms" for="comentario">Escribe aquí tu comentario o sugerencia:</label>
+            <textarea name="comentario" id="comentario"></textarea><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
